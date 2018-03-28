@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.joseph.peggy.LoginActivity">
+
+
+
+    <TextView
+        android:id="@+id/activity_login_text"
+        android:layout_width="195dp"
+        android:layout_height="83dp"
+        android:textSize="25sp"
+        android:text="@string/Welcome_text"
+        android:textAlignment="center"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        android:layout_marginTop="55dp" />
+
+    <Button
+        android:id="@+id/button_login_text"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="@string/login_text"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="184dp" />
+
+    <ImageView
+        android:id="@+id/login_user_image"
+        android:layout_width="210sp"
+        android:layout_height="170sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="290dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/history_user_image_description" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <com.example.joseph.peggy.GameView
+        android:id="@+id/gameViewView"
+        android:layout_width="210sp"
+        android:layout_height="170sp"
+        android:layout_marginStart="90sp"
+        android:layout_marginTop="25dp"
+        android:contentDescription="@string/history_user_image_description" />
+
+    <ListView
+        android:id="@+id/gameViewSummary"
+        android:layout_width="match_parent"
+        android:layout_height="210sp"
+        android:backgroundTint="@color/colorAccent" />
+
+
+</LinearLayout>

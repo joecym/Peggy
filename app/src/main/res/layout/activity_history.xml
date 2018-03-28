@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/history_user_image"
+        android:layout_width="210sp"
+        android:layout_height="170sp"
+        android:layout_marginStart="90sp"
+        android:layout_marginTop="25dp"
+        android:contentDescription="@string/history_user_image_description" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/history_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="210sp"
+        android:backgroundTint="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/history_add_rides_edittext_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:hint="@string/history_add_ride_edittext_location"/>
+
+     <Button
+        android:id="@+id/history_add_ride_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/history_add_ride_button" />
+
+</LinearLayout>
