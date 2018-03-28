@@ -32,7 +32,9 @@
 
         <activity android:name=".JoyControlActivity" />
         <activity android:name=".BTActivity" />
-        <activity android:name=".BTControlActivity"></activity>
+        <activity android:name=".BTControlActivity"/>
+        <activity android:name=".DeviceListActivity"/>
+        <activity android:name=".OptionsActivity"/>
     </application>
 
 </manifest>

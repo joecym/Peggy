@@ -18,11 +18,24 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.097">
 
-        <Button
-            android:id="@+id/btcontrol_connect_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/BTcontrol_connect_button_text" />
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="314dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btcontrol_connection_button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Connect" />
+
+            <Button
+                android:id="@+id/btcontrol_preferences_button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Preferences" />
+        </LinearLayout>
 
         <TextView
             android:id="@+id/btcontrol_BTconnection_status"
