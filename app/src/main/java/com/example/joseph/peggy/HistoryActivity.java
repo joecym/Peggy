@@ -31,7 +31,7 @@ import jp.wasabeef.picasso.transformations.CropCircleTransformation;
 
 
 public class HistoryActivity extends AppCompatActivity {
-    // Declare RecyclerAdapter as module variable in order to modify it when using onSwipe()
+    // Declare RecyclerAdapter as module variable in order to modify it when using onSwipe() change test
     RideRecyclerAdapter adapter;
 
     // Tag for debugging purposes
